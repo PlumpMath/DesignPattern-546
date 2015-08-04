@@ -3,11 +3,13 @@
  *
  * Aug 4, 2015
  */
-package com.nikhil.factory.model;
+package com.nikhil.factory.factoryclass;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
+
+import com.nikhil.factory.model.Shape;
 
 /**
  * @author Nikhil V

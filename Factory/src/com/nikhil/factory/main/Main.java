@@ -9,13 +9,13 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.nikhil.factory.factoryclass.ShapeFactoryClassRegistration;
+import com.nikhil.factory.factoryclass.ShapeFactoryNoob;
+import com.nikhil.factory.factoryclass.ShapeFactoryReflection;
+import com.nikhil.factory.factoryclass.ShapeFactorySingleton;
 import com.nikhil.factory.model.Circle;
 import com.nikhil.factory.model.Rectangle;
 import com.nikhil.factory.model.Shape;
-import com.nikhil.factory.model.ShapeFactoryClassRegistration;
-import com.nikhil.factory.model.ShapeFactoryNoob;
-import com.nikhil.factory.model.ShapeFactoryReflection;
-import com.nikhil.factory.model.ShapeFactorySingleton;
 import com.nikhil.factory.model.Square;
 
 /**

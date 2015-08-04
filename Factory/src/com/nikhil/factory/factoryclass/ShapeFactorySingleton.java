@@ -3,7 +3,12 @@
  *
  * Aug 4, 2015
  */
-package com.nikhil.factory.model;
+package com.nikhil.factory.factoryclass;
+
+import com.nikhil.factory.model.Circle;
+import com.nikhil.factory.model.Rectangle;
+import com.nikhil.factory.model.Shape;
+import com.nikhil.factory.model.Square;
 
 /**
  * @author Nikhil V

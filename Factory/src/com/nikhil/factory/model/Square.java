@@ -5,6 +5,8 @@
  */
 package com.nikhil.factory.model;
 
+import com.nikhil.factory.factoryclass.ShapeFactoryClassRegistration;
+
 /**
  * @author Nikhil V
  *
