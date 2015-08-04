@@ -3,7 +3,7 @@
  *
  * Aug 3, 2015
  */
-package com.example.inheritance;
+package com.nikhil.singleton.model.inheritance;
 
 /**
  * @author Nikhil V

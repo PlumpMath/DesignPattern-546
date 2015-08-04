@@ -1,4 +1,4 @@
-package com.example.inheritance;
+package com.nikhil.singleton.model.inheritance;
 /**
  *
  @author Nikhil V

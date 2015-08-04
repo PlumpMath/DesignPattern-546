@@ -3,7 +3,7 @@
  *
  * Aug 3, 2015
  */
-package com.example.serilization;
+package com.nikhil.singleton.model.serilization;
 
 import java.io.Serializable;
 
