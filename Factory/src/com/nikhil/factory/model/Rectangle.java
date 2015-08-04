@@ -9,18 +9,25 @@ package com.nikhil.factory.model;
  * @author Nikhil V
  *
  */
-public class Rectangle implements Shape {
+public class Rectangle extends AbstractShape  {
 
-	/* 
-	@author Nikhil V
-	Aug 4, 2015
-	(non-Javadoc)
-	 * @see com.nikhil.factory.model.Shape#onDraw()
-	 */
+	
+	static
+	{		
+		 ShapeFactoryClassRegistration.getInstance().getRegisterShape().put(Shape.RECTANGLE_ID, new Rectangle());
+	}
+	
 	@Override
 	public void onDraw() {
 		// TODO Auto-generated method stub
 		System.out.println("Rectangle");
+	}
+
+
+	@Override
+	public Shape getInstance() {
+		// TODO Auto-generated method stub
+		return new Rectangle();
 	}
 
 }

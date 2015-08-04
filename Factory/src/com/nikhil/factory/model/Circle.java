@@ -5,24 +5,33 @@
  */
 package com.nikhil.factory.model;
 
+
 /**
  * @author Nikhil V
  *
  */
-import com.nikhil.factory.model.Shape;
 
-public class Circle implements Shape {
 
-	/* 
-	@author Nikhil V
-	Aug 4, 2015
-	(non-Javadoc)
-	 * @see com.nikhil.factory.model.Shape#onDraw()
-	 */
+public class Circle extends AbstractShape  {
+
+	
+	static
+	{		
+		 ShapeFactoryClassRegistration.getInstance().getRegisterShape().put(Shape.CIRCLE_ID, new Circle());
+	}
+	
+	
 	@Override
 	public void onDraw() {
 		// TODO Auto-generated method stub
 		System.out.println("\nCircle");
+	}
+
+	
+	@Override
+	public Shape getInstance() {
+		// TODO Auto-generated method stub
+		return new Circle();
 	}
 
 

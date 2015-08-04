@@ -11,6 +11,8 @@ package com.nikhil.factory.model;
  */
 public interface Shape {
 	
+	public static final int CIRCLE_ID=1,RECTANGLE_ID=2,SQUARE_ID=3;
+	
 	public void onDraw();
 
 }

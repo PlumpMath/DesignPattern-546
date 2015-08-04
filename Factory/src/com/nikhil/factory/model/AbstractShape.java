@@ -9,7 +9,7 @@ package com.nikhil.factory.model;
  * @author Nikhil V
  *
  */
-public abstract class CreateShape {
+public abstract class AbstractShape implements Shape {
 	
-	public abstract CreateShape getInstance();
+	public abstract Shape getInstance();
 }
