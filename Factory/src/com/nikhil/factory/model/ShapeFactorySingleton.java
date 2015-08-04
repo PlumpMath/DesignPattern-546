@@ -11,17 +11,10 @@ package com.nikhil.factory.model;
  */
 public class ShapeFactorySingleton {
 	
-	private int shapeId;
+	
 	private static ShapeFactorySingleton instance;
 	
 	
-	public int getShapeId() {
-		return shapeId;
-	}
-
-	public void setShapeId(int shapeId) {
-		this.shapeId = shapeId;
-	}
 
 	private ShapeFactorySingleton()
 	{
@@ -36,7 +29,7 @@ public class ShapeFactorySingleton {
 	}
 	
 	
-	public Shape getShapeInstance()
+	public Shape getShapeInstance(int shapeId)
 	{
 		switch(shapeId)
 		{
