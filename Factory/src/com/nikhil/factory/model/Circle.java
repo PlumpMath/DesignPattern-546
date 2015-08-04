@@ -22,7 +22,7 @@ public class Circle implements Shape {
 	@Override
 	public void onDraw() {
 		// TODO Auto-generated method stub
-		System.out.println("\n Circle");
+		System.out.println("\nCircle");
 	}
 
 
